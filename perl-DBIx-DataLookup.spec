@@ -9,7 +9,7 @@ Summary(pl):	DataLookup - rozszerzenie Perla do przegl±dania widoków baz danych
 Name:		perl-DBIx-DataLookup
 Version:	0.03
 Release:	3
-License:	GPL/Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fe4102aa940282b3fe731d37149b73dc
