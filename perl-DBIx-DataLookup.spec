@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	DBIx
-%define	pnam	DataLookup
+%define		pdir	DBIx
+%define		pnam	DataLookup
 Summary:	DataLookup - Perl extension for database view lookup table
 Summary(pl):	DataLookup - rozszerzenie Perla do przegl±dania widoków baz danych
 Name:		perl-DBIx-DataLookup
