@@ -33,7 +33,7 @@ pó¼niej w dowolnej chwili.
 %setup -q -n %{pdir}-%{pnam}-%{version}/%{pnam}
 
 %build
-perl -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"DBIx::DataLookup")'
+%{__perl} -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"DBIx::DataLookup")'
 %{__make}
 
 %{!?_without_tests:%{__make} test}
