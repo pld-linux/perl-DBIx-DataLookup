@@ -6,7 +6,7 @@
 %define		pdir	DBIx
 %define		pnam	DataLookup
 Summary:	DataLookup - Perl extension for database view lookup table
-Summary(pl):	DataLookup - rozszerzenie Perla do przegl±dania widoków baz danych
+Summary(pl.UTF-8):   DataLookup - rozszerzenie Perla do przeglÄ…dania widokÃ³w baz danych
 Name:		perl-DBIx-DataLookup
 Version:	0.03
 Release:	4
@@ -25,11 +25,11 @@ narrower purpose. This module allows you to both cache records pulled
 by an SQL statement from a database in the memory as well as look them
 up later at any time during execution of your script.
 
-%description -l pl
-Ten modu³ zewnêtrznie jest podobny do DBIx::Cache, ale jest prostszy i
-ma wê¿szy zakres zastosowañ. Pozwala na pamiêtanie w pamiêci rekordów
-wyci±gniêtych z bazy przez wyra¿enia SQL, a tak¿e przegl±danie ich
-pó¼niej w dowolnej chwili.
+%description -l pl.UTF-8
+Ten moduÅ‚ zewnÄ™trznie jest podobny do DBIx::Cache, ale jest prostszy i
+ma wÄ™Å¼szy zakres zastosowaÅ„. Pozwala na pamiÄ™tanie w pamiÄ™ci rekordÃ³w
+wyciÄ…gniÄ™tych z bazy przez wyraÅ¼enia SQL, a takÅ¼e przeglÄ…danie ich
+pÃ³Åºniej w dowolnej chwili.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}/%{pnam}
