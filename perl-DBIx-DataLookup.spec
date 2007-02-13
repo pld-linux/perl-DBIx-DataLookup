@@ -6,7 +6,7 @@
 %define		pdir	DBIx
 %define		pnam	DataLookup
 Summary:	DataLookup - Perl extension for database view lookup table
-Summary(pl.UTF-8):   DataLookup - rozszerzenie Perla do przeglądania widoków baz danych
+Summary(pl.UTF-8):	DataLookup - rozszerzenie Perla do przeglądania widoków baz danych
 Name:		perl-DBIx-DataLookup
 Version:	0.03
 Release:	4
