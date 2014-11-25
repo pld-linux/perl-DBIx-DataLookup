@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# Do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	DBIx
 %define		pnam	DataLookup
+%include	/usr/lib/rpm/macros.perl
 Summary:	DataLookup - Perl extension for database view lookup table
 Summary(pl.UTF-8):	DataLookup - rozszerzenie Perla do przeglądania widoków baz danych
 Name:		perl-DBIx-DataLookup
@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fe4102aa940282b3fe731d37149b73dc
+URL:		http://search.cpan.org/dist/DBIx-DataLookup/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
