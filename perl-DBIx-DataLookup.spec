@@ -4,7 +4,6 @@
 
 %define		pdir	DBIx
 %define		pnam	DataLookup
-%include	/usr/lib/rpm/macros.perl
 Summary:	DataLookup - Perl extension for database view lookup table
 Summary(pl.UTF-8):	DataLookup - rozszerzenie Perla do przeglądania widoków baz danych
 Name:		perl-DBIx-DataLookup
